@@ -1,0 +1,243 @@
+{
+  "subjectId": "math",
+  "version": 1,
+  "lang": "hi",
+  "title": "गणित",
+  "icon": "ic_math",
+  "units": [
+    {
+      "id": "math_u1",
+      "title": "गणित",
+      "lessons": [
+        {
+          "id": "math_u1_l1",
+          "objective": "बीज जोड़ें और जानवर गिनें।",
+          "reviewed": false,
+          "cards": [
+            {
+              "id": "math_u1_l1_c1",
+              "text": "बीज गिनें. बीज जोड़ें और जानवर गिनें। 2 + 3 = 5 बीज।",
+              "image": "ic_math",
+              "audio": "audio/hi/math_u1_l1_c1.ogg"
+            },
+            {
+              "id": "math_u1_l1_c2",
+              "text": "4 + 2 = 6 मुर्गियाँ। 9, 7 से बड़ा है।",
+              "image": "ic_math",
+              "audio": "audio/hi/math_u1_l1_c2.ogg"
+            }
+          ],
+          "activities": [
+            {
+              "id": "math_u1_l1_a1",
+              "type": "MCQ",
+              "prompt": "किसान के पास 2 बीज हैं। 3 और मिले। कुल कितने?",
+              "promptAudio": "audio/hi/math_u1_l1_a1.ogg",
+              "explanation": "2 + 3 = 5 बीज।",
+              "options": [
+                {
+                  "text": "4",
+                  "image": null
+                },
+                {
+                  "text": "5",
+                  "image": null
+                },
+                {
+                  "text": "6",
+                  "image": null
+                }
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "math_u1_l1_a2",
+              "type": "LISTEN_PICK",
+              "prompt": "सुनें: तीन बकरियाँ। संख्या चुनें।",
+              "promptAudio": "audio/hi/math_u1_l1_a2.ogg",
+              "explanation": "तीन बकरियाँ यानी 3।",
+              "options": [
+                {
+                  "text": "2",
+                  "image": null
+                },
+                {
+                  "text": "4",
+                  "image": null
+                },
+                {
+                  "text": "3",
+                  "image": null
+                }
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "math_u1_l1_a3",
+              "type": "MATCH_PAIRS",
+              "prompt": "समूह को उसकी गिनती से मिलाएँ।",
+              "promptAudio": "audio/hi/math_u1_l1_a3.ogg",
+              "explanation": "एक बीज 1; दो गायें 2।",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "एक बीज",
+                  "right": "1"
+                },
+                {
+                  "id": "p2",
+                  "left": "दो गायें",
+                  "right": "2"
+                }
+              ]
+            },
+            {
+              "id": "math_u1_l1_a4",
+              "type": "NUMBER_ENTRY",
+              "prompt": "4 मुर्गियाँ हैं। 2 और आईं। कुल कितनी?",
+              "promptAudio": "audio/hi/math_u1_l1_a4.ogg",
+              "explanation": "4 + 2 = 6 मुर्गियाँ।",
+              "answer": 6
+            },
+            {
+              "id": "math_u1_l1_a5",
+              "type": "MCQ",
+              "prompt": "7 से बड़ी संख्या कौन सी है?",
+              "promptAudio": "audio/hi/math_u1_l1_a5.ogg",
+              "explanation": "9, 7 से बड़ा है।",
+              "options": [
+                {
+                  "text": "5",
+                  "image": null
+                },
+                {
+                  "text": "6",
+                  "image": null
+                },
+                {
+                  "text": "9",
+                  "image": null
+                }
+              ],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "id": "math_u1_l2",
+          "objective": "सब्ज़ियाँ खरीदने में रुपये गिनें।",
+          "reviewed": false,
+          "cards": [
+            {
+              "id": "math_u1_l2_c1",
+              "text": "बाज़ार में. सब्ज़ियाँ खरीदने में रुपये गिनें। 10 + 5 = 15 रुपये।",
+              "image": "ic_math",
+              "audio": "audio/hi/math_u1_l2_c1.ogg"
+            },
+            {
+              "id": "math_u1_l2_c2",
+              "text": "20 − 12 = 8 रुपये वापस। 5 + 5 + 5 = 15 रुपये।",
+              "image": "ic_math",
+              "audio": "audio/hi/math_u1_l2_c2.ogg"
+            }
+          ],
+          "activities": [
+            {
+              "id": "math_u1_l2_a1",
+              "type": "MCQ",
+              "prompt": "टमाटर ₹10 और प्याज ₹5। कुल कीमत?",
+              "promptAudio": "audio/hi/math_u1_l2_a1.ogg",
+              "explanation": "10 + 5 = 15 रुपये।",
+              "options": [
+                {
+                  "text": "₹15",
+                  "image": null
+                },
+                {
+                  "text": "₹10",
+                  "image": null
+                },
+                {
+                  "text": "₹20",
+                  "image": null
+                }
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "math_u1_l2_a2",
+              "type": "LISTEN_PICK",
+              "prompt": "सुनें: बीस रुपये। रकम चुनें।",
+              "promptAudio": "audio/hi/math_u1_l2_a2.ogg",
+              "explanation": "बीस रुपये ₹20 हैं।",
+              "options": [
+                {
+                  "text": "₹12",
+                  "image": null
+                },
+                {
+                  "text": "₹20",
+                  "image": null
+                },
+                {
+                  "text": "₹2",
+                  "image": null
+                }
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "math_u1_l2_a3",
+              "type": "MATCH_PAIRS",
+              "prompt": "बराबर रकम मिलाएँ।",
+              "promptAudio": "audio/hi/math_u1_l2_a3.ogg",
+              "explanation": "5 + 5 = 10; 10 + 10 = 20।",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "₹5 के दो सिक्के",
+                  "right": "₹10"
+                },
+                {
+                  "id": "p2",
+                  "left": "₹10 के दो नोट",
+                  "right": "₹20"
+                }
+              ]
+            },
+            {
+              "id": "math_u1_l2_a4",
+              "type": "NUMBER_ENTRY",
+              "prompt": "₹12 के कद्दू के लिए ₹20 दिए। कितने रुपये वापस?",
+              "promptAudio": "audio/hi/math_u1_l2_a4.ogg",
+              "explanation": "20 − 12 = 8 रुपये वापस।",
+              "answer": 8
+            },
+            {
+              "id": "math_u1_l2_a5",
+              "type": "MCQ",
+              "prompt": "तीन आम, हर एक ₹5। कुल कीमत?",
+              "promptAudio": "audio/hi/math_u1_l2_a5.ogg",
+              "explanation": "5 + 5 + 5 = 15 रुपये।",
+              "options": [
+                {
+                  "text": "₹10",
+                  "image": null
+                },
+                {
+                  "text": "₹15",
+                  "image": null
+                },
+                {
+                  "text": "₹5",
+                  "image": null
+                }
+              ],
+              "correctIndex": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

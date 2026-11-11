@@ -1,0 +1,14 @@
+# Assumptions
+- Learning Garden is the prototype name. Shared profiles are local and have no passwords. Research PIN is 2468; it is a demonstration gate, not secure authentication.
+- Calendar days/weeks use the device timezone, Monday through Sunday. Device clock accuracy is assumed.
+- One active lesson session per learner; starting another lesson replaces the unfinished session only after an explicit choice. Language changes preserve IDs and answers.
+- Correct-on-retry earns credit for stars. Each activity permits two submissions. XP is awarded per activity per lesson run, with completion bonuses once per run; replay is intentional practice.
+- Machine-authored en/hi/mr content needs educator review before use with children. All lessons have reviewed=false.
+- Core has no INTERNET permission. Downloads copy an optional bundled demo pack after consent; sync uses an in-memory fake and is opt-in.
+- Android 17 API 37 is the latest stable major SDK available in this environment; compile uses installed stable 37.1. Tool versions are pinned.
+- No audio is bundled. Offline TTS depends on locally installed voices and silently skips unavailable voices.
+- Baseline profile generation and low-end timing claims require a connected emulator/device; measurements will be reported as measured or unverified, never inferred.
+- The first completion has no prior personal best, so the +10 improvement bonus applies from the second completed attempt onward. PERFECT_ROUND means 100% final correctness; correct retries count. COMEBACK means completing a previously completed lesson again. BILINGUAL requires the same lesson completed in two starting languages.
+- Language changes update the active profile preference; picking that profile restores its language. The language recorded for a lesson run is its starting language, even if UI language changes midway.
+- Prototype navigation and plant drawings are static, so reduced-motion mode has no animations to suppress. Material controls retain standard interaction feedback.
+- Installed emulator enforces 4 GB RAM despite the AVD requesting 1 GB. Low-end/API24 physical performance and TalkBack review remain manual verification items.

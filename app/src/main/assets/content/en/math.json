@@ -1,0 +1,243 @@
+{
+  "subjectId": "math",
+  "version": 1,
+  "lang": "en",
+  "title": "Math",
+  "icon": "ic_math",
+  "units": [
+    {
+      "id": "math_u1",
+      "title": "Math",
+      "lessons": [
+        {
+          "id": "math_u1_l1",
+          "objective": "Add seeds and count animals.",
+          "reviewed": false,
+          "cards": [
+            {
+              "id": "math_u1_l1_c1",
+              "text": "Count seeds. Add seeds and count animals. 2 + 3 = 5 seeds.",
+              "image": "ic_math",
+              "audio": "audio/en/math_u1_l1_c1.ogg"
+            },
+            {
+              "id": "math_u1_l1_c2",
+              "text": "4 + 2 = 6 hens. 9 is greater than 7.",
+              "image": "ic_math",
+              "audio": "audio/en/math_u1_l1_c2.ogg"
+            }
+          ],
+          "activities": [
+            {
+              "id": "math_u1_l1_a1",
+              "type": "MCQ",
+              "prompt": "A farmer has 2 seeds and gets 3 more. How many seeds?",
+              "promptAudio": "audio/en/math_u1_l1_a1.ogg",
+              "explanation": "2 + 3 = 5 seeds.",
+              "options": [
+                {
+                  "text": "4",
+                  "image": null
+                },
+                {
+                  "text": "5",
+                  "image": null
+                },
+                {
+                  "text": "6",
+                  "image": null
+                }
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "math_u1_l1_a2",
+              "type": "LISTEN_PICK",
+              "prompt": "Listen: three goats. Choose the number.",
+              "promptAudio": "audio/en/math_u1_l1_a2.ogg",
+              "explanation": "Three goats means 3.",
+              "options": [
+                {
+                  "text": "2",
+                  "image": null
+                },
+                {
+                  "text": "4",
+                  "image": null
+                },
+                {
+                  "text": "3",
+                  "image": null
+                }
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "math_u1_l1_a3",
+              "type": "MATCH_PAIRS",
+              "prompt": "Match each group with its count.",
+              "promptAudio": "audio/en/math_u1_l1_a3.ogg",
+              "explanation": "One seed is 1; two cows are 2.",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "one seed",
+                  "right": "1"
+                },
+                {
+                  "id": "p2",
+                  "left": "two cows",
+                  "right": "2"
+                }
+              ]
+            },
+            {
+              "id": "math_u1_l1_a4",
+              "type": "NUMBER_ENTRY",
+              "prompt": "There are 4 hens and 2 more arrive. How many hens?",
+              "promptAudio": "audio/en/math_u1_l1_a4.ogg",
+              "explanation": "4 + 2 = 6 hens.",
+              "answer": 6
+            },
+            {
+              "id": "math_u1_l1_a5",
+              "type": "MCQ",
+              "prompt": "Which number is greater than 7?",
+              "promptAudio": "audio/en/math_u1_l1_a5.ogg",
+              "explanation": "9 is greater than 7.",
+              "options": [
+                {
+                  "text": "5",
+                  "image": null
+                },
+                {
+                  "text": "6",
+                  "image": null
+                },
+                {
+                  "text": "9",
+                  "image": null
+                }
+              ],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "id": "math_u1_l2",
+          "objective": "Use rupees to buy vegetables.",
+          "reviewed": false,
+          "cards": [
+            {
+              "id": "math_u1_l2_c1",
+              "text": "At the market. Use rupees to buy vegetables. 10 + 5 = 15 rupees.",
+              "image": "ic_math",
+              "audio": "audio/en/math_u1_l2_c1.ogg"
+            },
+            {
+              "id": "math_u1_l2_c2",
+              "text": "20 − 12 = 8 rupees change. 5 + 5 + 5 = 15 rupees.",
+              "image": "ic_math",
+              "audio": "audio/en/math_u1_l2_c2.ogg"
+            }
+          ],
+          "activities": [
+            {
+              "id": "math_u1_l2_a1",
+              "type": "MCQ",
+              "prompt": "Tomatoes cost ₹10 and onions ₹5. Total cost?",
+              "promptAudio": "audio/en/math_u1_l2_a1.ogg",
+              "explanation": "10 + 5 = 15 rupees.",
+              "options": [
+                {
+                  "text": "₹15",
+                  "image": null
+                },
+                {
+                  "text": "₹10",
+                  "image": null
+                },
+                {
+                  "text": "₹20",
+                  "image": null
+                }
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "math_u1_l2_a2",
+              "type": "LISTEN_PICK",
+              "prompt": "Listen: twenty rupees. Choose the amount.",
+              "promptAudio": "audio/en/math_u1_l2_a2.ogg",
+              "explanation": "Twenty rupees is ₹20.",
+              "options": [
+                {
+                  "text": "₹12",
+                  "image": null
+                },
+                {
+                  "text": "₹20",
+                  "image": null
+                },
+                {
+                  "text": "₹2",
+                  "image": null
+                }
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "math_u1_l2_a3",
+              "type": "MATCH_PAIRS",
+              "prompt": "Match equal amounts.",
+              "promptAudio": "audio/en/math_u1_l2_a3.ogg",
+              "explanation": "5 + 5 = 10; 10 + 10 = 20.",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "two ₹5 coins",
+                  "right": "₹10"
+                },
+                {
+                  "id": "p2",
+                  "left": "two ₹10 notes",
+                  "right": "₹20"
+                }
+              ]
+            },
+            {
+              "id": "math_u1_l2_a4",
+              "type": "NUMBER_ENTRY",
+              "prompt": "You pay ₹20 for a ₹12 pumpkin. How many rupees change?",
+              "promptAudio": "audio/en/math_u1_l2_a4.ogg",
+              "explanation": "20 − 12 = 8 rupees change.",
+              "answer": 8
+            },
+            {
+              "id": "math_u1_l2_a5",
+              "type": "MCQ",
+              "prompt": "Three mangoes cost ₹5 each. Total?",
+              "promptAudio": "audio/en/math_u1_l2_a5.ogg",
+              "explanation": "5 + 5 + 5 = 15 rupees.",
+              "options": [
+                {
+                  "text": "₹10",
+                  "image": null
+                },
+                {
+                  "text": "₹15",
+                  "image": null
+                },
+                {
+                  "text": "₹5",
+                  "image": null
+                }
+              ],
+              "correctIndex": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

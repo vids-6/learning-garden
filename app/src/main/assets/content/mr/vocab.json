@@ -1,0 +1,243 @@
+{
+  "subjectId": "vocab",
+  "version": 1,
+  "lang": "mr",
+  "title": "आपल्या आसपासचे शब्द",
+  "icon": "ic_vocab",
+  "units": [
+    {
+      "id": "vocab_u1",
+      "title": "आपल्या आसपासचे शब्द",
+      "lessons": [
+        {
+          "id": "vocab_u1_l1",
+          "objective": "प्राणी आणि पिकांची नावे शिका.",
+          "reviewed": false,
+          "cards": [
+            {
+              "id": "vocab_u1_l1_c1",
+              "text": "शेतातील शब्द. प्राणी आणि पिकांची नावे शिका. गाय दूध देते.",
+              "image": "ic_vocab",
+              "audio": "audio/mr/vocab_u1_l1_c1.ogg"
+            },
+            {
+              "id": "vocab_u1_l1_c2",
+              "text": "पिकांची 3 नावे आहेत. बियांपासून रोपे उगवतात.",
+              "image": "ic_vocab",
+              "audio": "audio/mr/vocab_u1_l1_c2.ogg"
+            }
+          ],
+          "activities": [
+            {
+              "id": "vocab_u1_l1_a1",
+              "type": "MCQ",
+              "prompt": "कोणता प्राणी दूध देतो?",
+              "promptAudio": "audio/mr/vocab_u1_l1_a1.ogg",
+              "explanation": "गाय दूध देते.",
+              "options": [
+                {
+                  "text": "कोंबडी",
+                  "image": null
+                },
+                {
+                  "text": "गाय",
+                  "image": null
+                },
+                {
+                  "text": "मुंगी",
+                  "image": null
+                }
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "vocab_u1_l1_a2",
+              "type": "LISTEN_PICK",
+              "prompt": "ऐका: गहू. पीक निवडा.",
+              "promptAudio": "audio/mr/vocab_u1_l1_a2.ogg",
+              "explanation": "गव्हाच्या पिकापासून पीठ बनते.",
+              "options": [
+                {
+                  "text": "गहू",
+                  "image": null
+                },
+                {
+                  "text": "दगड",
+                  "image": null
+                },
+                {
+                  "text": "भांडे",
+                  "image": null
+                }
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "vocab_u1_l1_a3",
+              "type": "MATCH_PAIRS",
+              "prompt": "प्राणी आणि त्याचे अन्न यांच्या जोड्या जुळवा.",
+              "promptAudio": "audio/mr/vocab_u1_l1_a3.ogg",
+              "explanation": "गाय गवत खाते; कोंबडी दाणे टिपते.",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "गाय",
+                  "right": "गवत"
+                },
+                {
+                  "id": "p2",
+                  "left": "कोंबडी",
+                  "right": "दाणे"
+                }
+              ]
+            },
+            {
+              "id": "vocab_u1_l1_a4",
+              "type": "NUMBER_ENTRY",
+              "prompt": "पिकांची नावे मोजा: तांदूळ, गहू, बाजरी. किती?",
+              "promptAudio": "audio/mr/vocab_u1_l1_a4.ogg",
+              "explanation": "पिकांची 3 नावे आहेत.",
+              "answer": 3
+            },
+            {
+              "id": "vocab_u1_l1_a5",
+              "type": "MCQ",
+              "prompt": "पीक उगवण्यासाठी मातीत काय पेरतो?",
+              "promptAudio": "audio/mr/vocab_u1_l1_a5.ogg",
+              "explanation": "बियांपासून रोपे उगवतात.",
+              "options": [
+                {
+                  "text": "प्लास्टिक",
+                  "image": null
+                },
+                {
+                  "text": "काच",
+                  "image": null
+                },
+                {
+                  "text": "बिया",
+                  "image": null
+                }
+              ],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "id": "vocab_u1_l2",
+          "objective": "खरेदी आणि विक्रीचे शब्द शिका.",
+          "reviewed": false,
+          "cards": [
+            {
+              "id": "vocab_u1_l2_c1",
+              "text": "बाजारातील शब्द. खरेदी आणि विक्रीचे शब्द शिका. विक्रेता वस्तू विकतो.",
+              "image": "ic_vocab",
+              "audio": "audio/mr/vocab_u1_l2_c1.ogg"
+            },
+            {
+              "id": "vocab_u1_l2_c2",
+              "text": "एक आंबा आणि एक केळे मिळून 2 फळे. विक्रेता उरलेले पैसे परत देतो.",
+              "image": "ic_vocab",
+              "audio": "audio/mr/vocab_u1_l2_c2.ogg"
+            }
+          ],
+          "activities": [
+            {
+              "id": "vocab_u1_l2_a1",
+              "type": "MCQ",
+              "prompt": "बाजारात भाज्या कोण विकतो?",
+              "promptAudio": "audio/mr/vocab_u1_l2_a1.ogg",
+              "explanation": "विक्रेता वस्तू विकतो.",
+              "options": [
+                {
+                  "text": "विक्रेता",
+                  "image": null
+                },
+                {
+                  "text": "ढग",
+                  "image": null
+                },
+                {
+                  "text": "नदी",
+                  "image": null
+                }
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "vocab_u1_l2_a2",
+              "type": "LISTEN_PICK",
+              "prompt": "ऐका: टोपली. भाज्या कशात ठेवतात?",
+              "promptAudio": "audio/mr/vocab_u1_l2_a2.ogg",
+              "explanation": "टोपलीत भाज्या ठेवता येतात.",
+              "options": [
+                {
+                  "text": "बूट",
+                  "image": null
+                },
+                {
+                  "text": "टोपली",
+                  "image": null
+                },
+                {
+                  "text": "पेन्सिल",
+                  "image": null
+                }
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "vocab_u1_l2_a3",
+              "type": "MATCH_PAIRS",
+              "prompt": "वस्तू आणि उपयोग यांच्या जोड्या जुळवा.",
+              "promptAudio": "audio/mr/vocab_u1_l2_a3.ogg",
+              "explanation": "तराजू तोलतो; पिशवीत सामान नेता येते.",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "तराजू",
+                  "right": "भाज्या तोलणे"
+                },
+                {
+                  "id": "p2",
+                  "left": "पिशवी",
+                  "right": "खरेदीचे सामान नेणे"
+                }
+              ]
+            },
+            {
+              "id": "vocab_u1_l2_a4",
+              "type": "NUMBER_ENTRY",
+              "prompt": "टोपलीत एक आंबा आणि एक केळे आहे. किती फळे?",
+              "promptAudio": "audio/mr/vocab_u1_l2_a4.ogg",
+              "explanation": "एक आंबा आणि एक केळे मिळून 2 फळे.",
+              "answer": 2
+            },
+            {
+              "id": "vocab_u1_l2_a5",
+              "type": "MCQ",
+              "prompt": "जास्त पैसे दिल्यावर परत मिळालेल्या पैशांना काय म्हणतात?",
+              "promptAudio": "audio/mr/vocab_u1_l2_a5.ogg",
+              "explanation": "विक्रेता उरलेले पैसे परत देतो.",
+              "options": [
+                {
+                  "text": "पीक",
+                  "image": null
+                },
+                {
+                  "text": "सुटे पैसे",
+                  "image": null
+                },
+                {
+                  "text": "पाऊस",
+                  "image": null
+                }
+              ],
+              "correctIndex": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

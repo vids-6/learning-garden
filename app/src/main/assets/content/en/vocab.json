@@ -1,0 +1,243 @@
+{
+  "subjectId": "vocab",
+  "version": 1,
+  "lang": "en",
+  "title": "Words around us",
+  "icon": "ic_vocab",
+  "units": [
+    {
+      "id": "vocab_u1",
+      "title": "Words around us",
+      "lessons": [
+        {
+          "id": "vocab_u1_l1",
+          "objective": "Learn names of animals and crops.",
+          "reviewed": false,
+          "cards": [
+            {
+              "id": "vocab_u1_l1_c1",
+              "text": "Farm words. Learn names of animals and crops. A cow gives milk.",
+              "image": "ic_vocab",
+              "audio": "audio/en/vocab_u1_l1_c1.ogg"
+            },
+            {
+              "id": "vocab_u1_l1_c2",
+              "text": "There are 3 crop names. Seeds grow into plants.",
+              "image": "ic_vocab",
+              "audio": "audio/en/vocab_u1_l1_c2.ogg"
+            }
+          ],
+          "activities": [
+            {
+              "id": "vocab_u1_l1_a1",
+              "type": "MCQ",
+              "prompt": "Which animal gives us milk?",
+              "promptAudio": "audio/en/vocab_u1_l1_a1.ogg",
+              "explanation": "A cow gives milk.",
+              "options": [
+                {
+                  "text": "Hen",
+                  "image": null
+                },
+                {
+                  "text": "Cow",
+                  "image": null
+                },
+                {
+                  "text": "Ant",
+                  "image": null
+                }
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "vocab_u1_l1_a2",
+              "type": "LISTEN_PICK",
+              "prompt": "Listen: wheat. Choose the crop.",
+              "promptAudio": "audio/en/vocab_u1_l1_a2.ogg",
+              "explanation": "Wheat is a crop used for flour.",
+              "options": [
+                {
+                  "text": "Wheat",
+                  "image": null
+                },
+                {
+                  "text": "Stone",
+                  "image": null
+                },
+                {
+                  "text": "Pot",
+                  "image": null
+                }
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "vocab_u1_l1_a3",
+              "type": "MATCH_PAIRS",
+              "prompt": "Match the animal with its food.",
+              "promptAudio": "audio/en/vocab_u1_l1_a3.ogg",
+              "explanation": "Cows eat grass; hens peck grain.",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "Cow",
+                  "right": "Grass"
+                },
+                {
+                  "id": "p2",
+                  "left": "Hen",
+                  "right": "Grain"
+                }
+              ]
+            },
+            {
+              "id": "vocab_u1_l1_a4",
+              "type": "NUMBER_ENTRY",
+              "prompt": "Count these crop names: rice, wheat, millet. How many?",
+              "promptAudio": "audio/en/vocab_u1_l1_a4.ogg",
+              "explanation": "There are 3 crop names.",
+              "answer": 3
+            },
+            {
+              "id": "vocab_u1_l1_a5",
+              "type": "MCQ",
+              "prompt": "What do we plant in soil to grow crops?",
+              "promptAudio": "audio/en/vocab_u1_l1_a5.ogg",
+              "explanation": "Seeds grow into plants.",
+              "options": [
+                {
+                  "text": "Plastic",
+                  "image": null
+                },
+                {
+                  "text": "Glass",
+                  "image": null
+                },
+                {
+                  "text": "Seeds",
+                  "image": null
+                }
+              ],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "id": "vocab_u1_l2",
+          "objective": "Use words for buying and selling.",
+          "reviewed": false,
+          "cards": [
+            {
+              "id": "vocab_u1_l2_c1",
+              "text": "Market words. Use words for buying and selling. A seller sells goods.",
+              "image": "ic_vocab",
+              "audio": "audio/en/vocab_u1_l2_c1.ogg"
+            },
+            {
+              "id": "vocab_u1_l2_c2",
+              "text": "One mango and one banana make 2 fruits. Change is money returned by the seller.",
+              "image": "ic_vocab",
+              "audio": "audio/en/vocab_u1_l2_c2.ogg"
+            }
+          ],
+          "activities": [
+            {
+              "id": "vocab_u1_l2_a1",
+              "type": "MCQ",
+              "prompt": "Who sells vegetables at a market?",
+              "promptAudio": "audio/en/vocab_u1_l2_a1.ogg",
+              "explanation": "A seller sells goods.",
+              "options": [
+                {
+                  "text": "Seller",
+                  "image": null
+                },
+                {
+                  "text": "Cloud",
+                  "image": null
+                },
+                {
+                  "text": "River",
+                  "image": null
+                }
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "vocab_u1_l2_a2",
+              "type": "LISTEN_PICK",
+              "prompt": "Listen: basket. What carries vegetables?",
+              "promptAudio": "audio/en/vocab_u1_l2_a2.ogg",
+              "explanation": "A basket can carry vegetables.",
+              "options": [
+                {
+                  "text": "Shoe",
+                  "image": null
+                },
+                {
+                  "text": "Basket",
+                  "image": null
+                },
+                {
+                  "text": "Pencil",
+                  "image": null
+                }
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "vocab_u1_l2_a3",
+              "type": "MATCH_PAIRS",
+              "prompt": "Match the item with its use.",
+              "promptAudio": "audio/en/vocab_u1_l2_a3.ogg",
+              "explanation": "A scale weighs; a bag carries.",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "Scale",
+                  "right": "Weigh vegetables"
+                },
+                {
+                  "id": "p2",
+                  "left": "Bag",
+                  "right": "Carry purchases"
+                }
+              ]
+            },
+            {
+              "id": "vocab_u1_l2_a4",
+              "type": "NUMBER_ENTRY",
+              "prompt": "A basket has a mango and a banana. How many fruits?",
+              "promptAudio": "audio/en/vocab_u1_l2_a4.ogg",
+              "explanation": "One mango and one banana make 2 fruits.",
+              "answer": 2
+            },
+            {
+              "id": "vocab_u1_l2_a5",
+              "type": "MCQ",
+              "prompt": "Which word means money returned after paying extra?",
+              "promptAudio": "audio/en/vocab_u1_l2_a5.ogg",
+              "explanation": "Change is money returned by the seller.",
+              "options": [
+                {
+                  "text": "Crop",
+                  "image": null
+                },
+                {
+                  "text": "Change",
+                  "image": null
+                },
+                {
+                  "text": "Rain",
+                  "image": null
+                }
+              ],
+              "correctIndex": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

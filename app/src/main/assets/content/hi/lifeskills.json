@@ -1,0 +1,243 @@
+{
+  "subjectId": "lifeskills",
+  "version": 1,
+  "lang": "hi",
+  "title": "रोज़ की सुरक्षा",
+  "icon": "ic_lifeskills",
+  "units": [
+    {
+      "id": "lifeskills_u1",
+      "title": "रोज़ की सुरक्षा",
+      "lessons": [
+        {
+          "id": "lifeskills_u1_l1",
+          "objective": "रोज़ साफ़ रहने की आदत सीखें।",
+          "reviewed": false,
+          "cards": [
+            {
+              "id": "lifeskills_u1_l1_c1",
+              "text": "साफ़ हाथ. रोज़ साफ़ रहने की आदत सीखें। साबुन और साफ़ पानी कीटाणु हटाने में मदद करते हैं।",
+              "image": "ic_lifeskills",
+              "audio": "audio/hi/lifeskills_u1_l1_c1.ogg"
+            },
+            {
+              "id": "lifeskills_u1_l1_c2",
+              "text": "कम से कम 20 सेकंड मलें, फिर साफ़ पानी से धोएँ। सुरक्षित पेयजल साफ़ ढके बर्तन में रखें।",
+              "image": "ic_lifeskills",
+              "audio": "audio/hi/lifeskills_u1_l1_c2.ogg"
+            }
+          ],
+          "activities": [
+            {
+              "id": "lifeskills_u1_l1_a1",
+              "type": "MCQ",
+              "prompt": "हाथ धोने के लिए क्या इस्तेमाल करें?",
+              "promptAudio": "audio/hi/lifeskills_u1_l1_a1.ogg",
+              "explanation": "साबुन और साफ़ पानी कीटाणु हटाने में मदद करते हैं।",
+              "options": [
+                {
+                  "text": "सिर्फ़ धूल",
+                  "image": null
+                },
+                {
+                  "text": "साबुन और साफ़ पानी",
+                  "image": null
+                },
+                {
+                  "text": "तेल",
+                  "image": null
+                }
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "lifeskills_u1_l1_a2",
+              "type": "LISTEN_PICK",
+              "prompt": "सुनें: खाने से पहले हाथ धोएँ। कब धोएँ?",
+              "promptAudio": "audio/hi/lifeskills_u1_l1_a2.ogg",
+              "explanation": "खाने से पहले और शौच के बाद हाथ धोएँ।",
+              "options": [
+                {
+                  "text": "खाने से पहले",
+                  "image": null
+                },
+                {
+                  "text": "सिर्फ़ छुट्टी पर",
+                  "image": null
+                },
+                {
+                  "text": "कभी नहीं",
+                  "image": null
+                }
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "lifeskills_u1_l1_a3",
+              "type": "MATCH_PAIRS",
+              "prompt": "आदत और वस्तु मिलाएँ।",
+              "promptAudio": "audio/hi/lifeskills_u1_l1_a3.ogg",
+              "explanation": "हाथ के लिए साबुन, दाँत के लिए ब्रश।",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "हाथ धोना",
+                  "right": "साबुन"
+                },
+                {
+                  "id": "p2",
+                  "left": "दाँत साफ़ करना",
+                  "right": "ब्रश"
+                }
+              ]
+            },
+            {
+              "id": "lifeskills_u1_l1_a4",
+              "type": "NUMBER_ENTRY",
+              "prompt": "साबुन लगे हाथ कम से कम कितने सेकंड मलें? बीस लिखें।",
+              "promptAudio": "audio/hi/lifeskills_u1_l1_a4.ogg",
+              "explanation": "कम से कम 20 सेकंड मलें, फिर साफ़ पानी से धोएँ।",
+              "answer": 20
+            },
+            {
+              "id": "lifeskills_u1_l1_a5",
+              "type": "MCQ",
+              "prompt": "कौन सा पानी पीना सबसे सुरक्षित है?",
+              "promptAudio": "audio/hi/lifeskills_u1_l1_a5.ogg",
+              "explanation": "सुरक्षित पेयजल साफ़ ढके बर्तन में रखें।",
+              "options": [
+                {
+                  "text": "गड्ढे का पानी",
+                  "image": null
+                },
+                {
+                  "text": "गंदी बाल्टी का पानी",
+                  "image": null
+                },
+                {
+                  "text": "साफ़ ढके बर्तन में सुरक्षित पेयजल",
+                  "image": null
+                }
+              ],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "id": "lifeskills_u1_l2",
+          "objective": "ओटीपी और निजी जानकारी सुरक्षित रखें।",
+          "reviewed": false,
+          "cards": [
+            {
+              "id": "lifeskills_u1_l2_c1",
+              "text": "फ़ोन की सुरक्षा. ओटीपी और निजी जानकारी सुरक्षित रखें। ओटीपी किसी को न बताएँ। भरोसेमंद बड़े से मदद लें।",
+              "image": "ic_lifeskills",
+              "audio": "audio/hi/lifeskills_u1_l2_c1.ogg"
+            },
+            {
+              "id": "lifeskills_u1_l2_c2",
+              "text": "शून्य। बैंक का नाम लेने वाले को भी ओटीपी न बताएँ। अनजान इनाम के लिए पैसे या निजी जानकारी न भेजें।",
+              "image": "ic_lifeskills",
+              "audio": "audio/hi/lifeskills_u1_l2_c2.ogg"
+            }
+          ],
+          "activities": [
+            {
+              "id": "lifeskills_u1_l2_a1",
+              "type": "MCQ",
+              "prompt": "अनजान व्यक्ति ओटीपी माँगे तो क्या करें?",
+              "promptAudio": "audio/hi/lifeskills_u1_l2_a1.ogg",
+              "explanation": "ओटीपी किसी को न बताएँ। भरोसेमंद बड़े से मदद लें।",
+              "options": [
+                {
+                  "text": "ओटीपी बताएँ",
+                  "image": null
+                },
+                {
+                  "text": "न बताएँ; भरोसेमंद बड़े को बताएँ",
+                  "image": null
+                },
+                {
+                  "text": "ऑनलाइन डालें",
+                  "image": null
+                }
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "lifeskills_u1_l2_a2",
+              "type": "LISTEN_PICK",
+              "prompt": "सुनें: अपना पता निजी रखें। निजी जानकारी क्या है?",
+              "promptAudio": "audio/hi/lifeskills_u1_l2_a2.ogg",
+              "explanation": "अनजान लोगों को अपना पता न भेजें।",
+              "options": [
+                {
+                  "text": "फसल का नाम",
+                  "image": null
+                },
+                {
+                  "text": "मौसम",
+                  "image": null
+                },
+                {
+                  "text": "आपके घर का पता",
+                  "image": null
+                }
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "lifeskills_u1_l2_a3",
+              "type": "MATCH_PAIRS",
+              "prompt": "स्थिति और सुरक्षित कदम मिलाएँ।",
+              "promptAudio": "audio/hi/lifeskills_u1_l2_a3.ogg",
+              "explanation": "अनजान लिंक न खोलें और डराने वाले संदेश पर मदद लें।",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "अनजान लिंक",
+                  "right": "टैप न करें"
+                },
+                {
+                  "id": "p2",
+                  "left": "डराने वाला संदेश",
+                  "right": "भरोसेमंद बड़े को बताएँ"
+                }
+              ]
+            },
+            {
+              "id": "lifeskills_u1_l2_a4",
+              "type": "NUMBER_ENTRY",
+              "prompt": "ओटीपी कितने लोगों को बताना चाहिए?",
+              "promptAudio": "audio/hi/lifeskills_u1_l2_a4.ogg",
+              "explanation": "शून्य। बैंक का नाम लेने वाले को भी ओटीपी न बताएँ।",
+              "answer": 0
+            },
+            {
+              "id": "lifeskills_u1_l2_a5",
+              "type": "MCQ",
+              "prompt": "इनाम का संदेश पैसे माँगता है। सुरक्षित कदम क्या है?",
+              "promptAudio": "audio/hi/lifeskills_u1_l2_a5.ogg",
+              "explanation": "अनजान इनाम के लिए पैसे या निजी जानकारी न भेजें।",
+              "options": [
+                {
+                  "text": "रुकें और भरोसेमंद बड़े को बताएँ",
+                  "image": null
+                },
+                {
+                  "text": "जल्दी पैसे दें",
+                  "image": null
+                },
+                {
+                  "text": "ओटीपी बताएँ",
+                  "image": null
+                }
+              ],
+              "correctIndex": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

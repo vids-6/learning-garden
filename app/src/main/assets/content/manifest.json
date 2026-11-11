@@ -1,0 +1,104 @@
+{
+  "packs": [
+    {
+      "id": "en_math",
+      "lang": "en",
+      "subject": "math",
+      "version": 1,
+      "sizeBytes": 7338,
+      "sha256": "7c0f6332155a51f507e90a6f9d1cd3da952578a6a6b13f47b5c8a4d8bb55e80e",
+      "path": "content/en/math.json",
+      "bundled": true
+    },
+    {
+      "id": "en_vocab",
+      "lang": "en",
+      "subject": "vocab",
+      "version": 1,
+      "sizeBytes": 7530,
+      "sha256": "32c74e8184a3332e23c8a0f44979953de92e74a7c894fa63c2ea6777b4ccf3d6",
+      "path": "content/en/vocab.json",
+      "bundled": true
+    },
+    {
+      "id": "en_lifeskills",
+      "lang": "en",
+      "subject": "lifeskills",
+      "version": 1,
+      "sizeBytes": 8465,
+      "sha256": "645bd8671fff0432a970ec0f330a6bf0385fbe9493e42346b893f32c3f7f5b0e",
+      "path": "content/en/lifeskills.json",
+      "bundled": true
+    },
+    {
+      "id": "hi_math",
+      "lang": "hi",
+      "subject": "math",
+      "version": 1,
+      "sizeBytes": 8280,
+      "sha256": "36659b25e916102a622a5260a4d0ccaf6c4c8392d7c17512532f542a011f02d1",
+      "path": "content/hi/math.json",
+      "bundled": true
+    },
+    {
+      "id": "hi_vocab",
+      "lang": "hi",
+      "subject": "vocab",
+      "version": 1,
+      "sizeBytes": 9249,
+      "sha256": "d56edf2d65ec4659e18af86625563073f356de04a7dfe0543be7ad620b973e9a",
+      "path": "content/hi/vocab.json",
+      "bundled": true
+    },
+    {
+      "id": "hi_lifeskills",
+      "lang": "hi",
+      "subject": "lifeskills",
+      "version": 1,
+      "sizeBytes": 10852,
+      "sha256": "9486cbcd972f862dd97a005eaa8c8097196faa8de494875e5d7c92f9910bcd08",
+      "path": "content/hi/lifeskills.json",
+      "bundled": true
+    },
+    {
+      "id": "mr_math",
+      "lang": "mr",
+      "subject": "math",
+      "version": 1,
+      "sizeBytes": 8330,
+      "sha256": "21492f3bd790926500fee9e633eb5b879f77fb19958cfdaad05aa3180dff7fb0",
+      "path": "content/mr/math.json",
+      "bundled": true
+    },
+    {
+      "id": "mr_vocab",
+      "lang": "mr",
+      "subject": "vocab",
+      "version": 1,
+      "sizeBytes": 9241,
+      "sha256": "867d9bacc7720dfb33c702678aeda1bb74177f88ed84d87840b61a8b4d610d6c",
+      "path": "content/mr/vocab.json",
+      "bundled": true
+    },
+    {
+      "id": "mr_lifeskills",
+      "lang": "mr",
+      "subject": "lifeskills",
+      "version": 1,
+      "sizeBytes": 11389,
+      "sha256": "68eb0c83ed418673dc918bc847bba7b9901948854c6d785a2c4132fd18afd07d",
+      "path": "content/mr/lifeskills.json",
+      "bundled": true
+    },
+    {
+      "id": "en_math_demo",
+      "lang": "en",
+      "subject": "math",
+      "version": 1,
+      "sizeBytes": 7338,
+      "sha256": "7c0f6332155a51f507e90a6f9d1cd3da952578a6a6b13f47b5c8a4d8bb55e80e",
+      "path": "content/en/math.json",
+      "bundled": false
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "subjectId": "math",
+  "version": 1,
+  "lang": "mr",
+  "title": "गणित",
+  "icon": "ic_math",
+  "units": [
+    {
+      "id": "math_u1",
+      "title": "गणित",
+      "lessons": [
+        {
+          "id": "math_u1_l1",
+          "objective": "बिया जोडा आणि प्राणी मोजा.",
+          "reviewed": false,
+          "cards": [
+            {
+              "id": "math_u1_l1_c1",
+              "text": "बिया मोजा. बिया जोडा आणि प्राणी मोजा. 2 + 3 = 5 बिया.",
+              "image": "ic_math",
+              "audio": "audio/mr/math_u1_l1_c1.ogg"
+            },
+            {
+              "id": "math_u1_l1_c2",
+              "text": "4 + 2 = 6 कोंबड्या. 9 ही 7 पेक्षा मोठी आहे.",
+              "image": "ic_math",
+              "audio": "audio/mr/math_u1_l1_c2.ogg"
+            }
+          ],
+          "activities": [
+            {
+              "id": "math_u1_l1_a1",
+              "type": "MCQ",
+              "prompt": "शेतकऱ्याकडे 2 बिया आहेत. आणखी 3 मिळाल्या. एकूण किती?",
+              "promptAudio": "audio/mr/math_u1_l1_a1.ogg",
+              "explanation": "2 + 3 = 5 बिया.",
+              "options": [
+                {
+                  "text": "4",
+                  "image": null
+                },
+                {
+                  "text": "5",
+                  "image": null
+                },
+                {
+                  "text": "6",
+                  "image": null
+                }
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "math_u1_l1_a2",
+              "type": "LISTEN_PICK",
+              "prompt": "ऐका: तीन शेळ्या. संख्या निवडा.",
+              "promptAudio": "audio/mr/math_u1_l1_a2.ogg",
+              "explanation": "तीन शेळ्या म्हणजे 3.",
+              "options": [
+                {
+                  "text": "2",
+                  "image": null
+                },
+                {
+                  "text": "4",
+                  "image": null
+                },
+                {
+                  "text": "3",
+                  "image": null
+                }
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "math_u1_l1_a3",
+              "type": "MATCH_PAIRS",
+              "prompt": "गटाची योग्य संख्येशी जोडी जुळवा.",
+              "promptAudio": "audio/mr/math_u1_l1_a3.ogg",
+              "explanation": "एक बी 1; दोन गायी 2.",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "एक बी",
+                  "right": "1"
+                },
+                {
+                  "id": "p2",
+                  "left": "दोन गायी",
+                  "right": "2"
+                }
+              ]
+            },
+            {
+              "id": "math_u1_l1_a4",
+              "type": "NUMBER_ENTRY",
+              "prompt": "4 कोंबड्या आहेत. आणखी 2 आल्या. एकूण किती?",
+              "promptAudio": "audio/mr/math_u1_l1_a4.ogg",
+              "explanation": "4 + 2 = 6 कोंबड्या.",
+              "answer": 6
+            },
+            {
+              "id": "math_u1_l1_a5",
+              "type": "MCQ",
+              "prompt": "7 पेक्षा मोठी संख्या कोणती?",
+              "promptAudio": "audio/mr/math_u1_l1_a5.ogg",
+              "explanation": "9 ही 7 पेक्षा मोठी आहे.",
+              "options": [
+                {
+                  "text": "5",
+                  "image": null
+                },
+                {
+                  "text": "6",
+                  "image": null
+                },
+                {
+                  "text": "9",
+                  "image": null
+                }
+              ],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "id": "math_u1_l2",
+          "objective": "भाज्या घेताना रुपये मोजा.",
+          "reviewed": false,
+          "cards": [
+            {
+              "id": "math_u1_l2_c1",
+              "text": "बाजारात. भाज्या घेताना रुपये मोजा. 10 + 5 = 15 रुपये.",
+              "image": "ic_math",
+              "audio": "audio/mr/math_u1_l2_c1.ogg"
+            },
+            {
+              "id": "math_u1_l2_c2",
+              "text": "20 − 12 = 8 रुपये परत. 5 + 5 + 5 = 15 रुपये.",
+              "image": "ic_math",
+              "audio": "audio/mr/math_u1_l2_c2.ogg"
+            }
+          ],
+          "activities": [
+            {
+              "id": "math_u1_l2_a1",
+              "type": "MCQ",
+              "prompt": "टोमॅटो ₹10 आणि कांदे ₹5. एकूण किंमत?",
+              "promptAudio": "audio/mr/math_u1_l2_a1.ogg",
+              "explanation": "10 + 5 = 15 रुपये.",
+              "options": [
+                {
+                  "text": "₹15",
+                  "image": null
+                },
+                {
+                  "text": "₹10",
+                  "image": null
+                },
+                {
+                  "text": "₹20",
+                  "image": null
+                }
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "math_u1_l2_a2",
+              "type": "LISTEN_PICK",
+              "prompt": "ऐका: वीस रुपये. रक्कम निवडा.",
+              "promptAudio": "audio/mr/math_u1_l2_a2.ogg",
+              "explanation": "वीस रुपये म्हणजे ₹20.",
+              "options": [
+                {
+                  "text": "₹12",
+                  "image": null
+                },
+                {
+                  "text": "₹20",
+                  "image": null
+                },
+                {
+                  "text": "₹2",
+                  "image": null
+                }
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "math_u1_l2_a3",
+              "type": "MATCH_PAIRS",
+              "prompt": "समान रकमांच्या जोड्या जुळवा.",
+              "promptAudio": "audio/mr/math_u1_l2_a3.ogg",
+              "explanation": "5 + 5 = 10; 10 + 10 = 20.",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "₹5 ची दोन नाणी",
+                  "right": "₹10"
+                },
+                {
+                  "id": "p2",
+                  "left": "₹10 च्या दोन नोटा",
+                  "right": "₹20"
+                }
+              ]
+            },
+            {
+              "id": "math_u1_l2_a4",
+              "type": "NUMBER_ENTRY",
+              "prompt": "₹12 च्या भोपळ्यासाठी ₹20 दिले. किती रुपये परत?",
+              "promptAudio": "audio/mr/math_u1_l2_a4.ogg",
+              "explanation": "20 − 12 = 8 रुपये परत.",
+              "answer": 8
+            },
+            {
+              "id": "math_u1_l2_a5",
+              "type": "MCQ",
+              "prompt": "तीन आंबे, प्रत्येकी ₹5. एकूण किंमत?",
+              "promptAudio": "audio/mr/math_u1_l2_a5.ogg",
+              "explanation": "5 + 5 + 5 = 15 रुपये.",
+              "options": [
+                {
+                  "text": "₹10",
+                  "image": null
+                },
+                {
+                  "text": "₹15",
+                  "image": null
+                },
+                {
+                  "text": "₹5",
+                  "image": null
+                }
+              ],
+              "correctIndex": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

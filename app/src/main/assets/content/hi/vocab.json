@@ -1,0 +1,243 @@
+{
+  "subjectId": "vocab",
+  "version": 1,
+  "lang": "hi",
+  "title": "आसपास के शब्द",
+  "icon": "ic_vocab",
+  "units": [
+    {
+      "id": "vocab_u1",
+      "title": "आसपास के शब्द",
+      "lessons": [
+        {
+          "id": "vocab_u1_l1",
+          "objective": "जानवरों और फसलों के नाम सीखें।",
+          "reviewed": false,
+          "cards": [
+            {
+              "id": "vocab_u1_l1_c1",
+              "text": "खेत के शब्द. जानवरों और फसलों के नाम सीखें। गाय दूध देती है।",
+              "image": "ic_vocab",
+              "audio": "audio/hi/vocab_u1_l1_c1.ogg"
+            },
+            {
+              "id": "vocab_u1_l1_c2",
+              "text": "फसलों के 3 नाम हैं। बीजों से पौधे उगते हैं।",
+              "image": "ic_vocab",
+              "audio": "audio/hi/vocab_u1_l1_c2.ogg"
+            }
+          ],
+          "activities": [
+            {
+              "id": "vocab_u1_l1_a1",
+              "type": "MCQ",
+              "prompt": "कौन सा जानवर दूध देता है?",
+              "promptAudio": "audio/hi/vocab_u1_l1_a1.ogg",
+              "explanation": "गाय दूध देती है।",
+              "options": [
+                {
+                  "text": "मुर्गी",
+                  "image": null
+                },
+                {
+                  "text": "गाय",
+                  "image": null
+                },
+                {
+                  "text": "चींटी",
+                  "image": null
+                }
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "vocab_u1_l1_a2",
+              "type": "LISTEN_PICK",
+              "prompt": "सुनें: गेहूँ। फसल चुनें।",
+              "promptAudio": "audio/hi/vocab_u1_l1_a2.ogg",
+              "explanation": "गेहूँ की फसल से आटा बनता है।",
+              "options": [
+                {
+                  "text": "गेहूँ",
+                  "image": null
+                },
+                {
+                  "text": "पत्थर",
+                  "image": null
+                },
+                {
+                  "text": "बर्तन",
+                  "image": null
+                }
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "vocab_u1_l1_a3",
+              "type": "MATCH_PAIRS",
+              "prompt": "जानवर और उसका भोजन मिलाएँ।",
+              "promptAudio": "audio/hi/vocab_u1_l1_a3.ogg",
+              "explanation": "गाय घास खाती है; मुर्गी दाना चुगती है।",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "गाय",
+                  "right": "घास"
+                },
+                {
+                  "id": "p2",
+                  "left": "मुर्गी",
+                  "right": "दाना"
+                }
+              ]
+            },
+            {
+              "id": "vocab_u1_l1_a4",
+              "type": "NUMBER_ENTRY",
+              "prompt": "फसल के नाम गिनें: चावल, गेहूँ, बाजरा। कितने?",
+              "promptAudio": "audio/hi/vocab_u1_l1_a4.ogg",
+              "explanation": "फसलों के 3 नाम हैं।",
+              "answer": 3
+            },
+            {
+              "id": "vocab_u1_l1_a5",
+              "type": "MCQ",
+              "prompt": "फसल उगाने के लिए मिट्टी में क्या बोते हैं?",
+              "promptAudio": "audio/hi/vocab_u1_l1_a5.ogg",
+              "explanation": "बीजों से पौधे उगते हैं।",
+              "options": [
+                {
+                  "text": "प्लास्टिक",
+                  "image": null
+                },
+                {
+                  "text": "काँच",
+                  "image": null
+                },
+                {
+                  "text": "बीज",
+                  "image": null
+                }
+              ],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "id": "vocab_u1_l2",
+          "objective": "खरीदने और बेचने के शब्द सीखें।",
+          "reviewed": false,
+          "cards": [
+            {
+              "id": "vocab_u1_l2_c1",
+              "text": "बाज़ार के शब्द. खरीदने और बेचने के शब्द सीखें। विक्रेता सामान बेचता है।",
+              "image": "ic_vocab",
+              "audio": "audio/hi/vocab_u1_l2_c1.ogg"
+            },
+            {
+              "id": "vocab_u1_l2_c2",
+              "text": "एक आम और एक केला, कुल 2 फल। विक्रेता बचे हुए पैसे लौटाता है।",
+              "image": "ic_vocab",
+              "audio": "audio/hi/vocab_u1_l2_c2.ogg"
+            }
+          ],
+          "activities": [
+            {
+              "id": "vocab_u1_l2_a1",
+              "type": "MCQ",
+              "prompt": "बाज़ार में सब्ज़ियाँ कौन बेचता है?",
+              "promptAudio": "audio/hi/vocab_u1_l2_a1.ogg",
+              "explanation": "विक्रेता सामान बेचता है।",
+              "options": [
+                {
+                  "text": "विक्रेता",
+                  "image": null
+                },
+                {
+                  "text": "बादल",
+                  "image": null
+                },
+                {
+                  "text": "नदी",
+                  "image": null
+                }
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "vocab_u1_l2_a2",
+              "type": "LISTEN_PICK",
+              "prompt": "सुनें: टोकरी। सब्ज़ियाँ किसमें रखते हैं?",
+              "promptAudio": "audio/hi/vocab_u1_l2_a2.ogg",
+              "explanation": "टोकरी में सब्ज़ियाँ रख सकते हैं।",
+              "options": [
+                {
+                  "text": "जूता",
+                  "image": null
+                },
+                {
+                  "text": "टोकरी",
+                  "image": null
+                },
+                {
+                  "text": "पेंसिल",
+                  "image": null
+                }
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "vocab_u1_l2_a3",
+              "type": "MATCH_PAIRS",
+              "prompt": "वस्तु और उसका उपयोग मिलाएँ।",
+              "promptAudio": "audio/hi/vocab_u1_l2_a3.ogg",
+              "explanation": "तराज़ू तौलता है; थैला सामान रखता है।",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "तराज़ू",
+                  "right": "सब्ज़ी तौलना"
+                },
+                {
+                  "id": "p2",
+                  "left": "थैला",
+                  "right": "सामान ले जाना"
+                }
+              ]
+            },
+            {
+              "id": "vocab_u1_l2_a4",
+              "type": "NUMBER_ENTRY",
+              "prompt": "टोकरी में एक आम और एक केला है। कितने फल?",
+              "promptAudio": "audio/hi/vocab_u1_l2_a4.ogg",
+              "explanation": "एक आम और एक केला, कुल 2 फल।",
+              "answer": 2
+            },
+            {
+              "id": "vocab_u1_l2_a5",
+              "type": "MCQ",
+              "prompt": "ज़्यादा पैसे देने पर लौटे पैसों को क्या कहते हैं?",
+              "promptAudio": "audio/hi/vocab_u1_l2_a5.ogg",
+              "explanation": "विक्रेता बचे हुए पैसे लौटाता है।",
+              "options": [
+                {
+                  "text": "फसल",
+                  "image": null
+                },
+                {
+                  "text": "छुट्टे पैसे",
+                  "image": null
+                },
+                {
+                  "text": "बारिश",
+                  "image": null
+                }
+              ],
+              "correctIndex": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "subjectId": "lifeskills",
+  "version": 1,
+  "lang": "en",
+  "title": "Everyday safety",
+  "icon": "ic_lifeskills",
+  "units": [
+    {
+      "id": "lifeskills_u1",
+      "title": "Everyday safety",
+      "lessons": [
+        {
+          "id": "lifeskills_u1_l1",
+          "objective": "Practise safe daily hygiene.",
+          "reviewed": false,
+          "cards": [
+            {
+              "id": "lifeskills_u1_l1_c1",
+              "text": "Clean hands. Practise safe daily hygiene. Soap and clean water help remove germs.",
+              "image": "ic_lifeskills",
+              "audio": "audio/en/lifeskills_u1_l1_c1.ogg"
+            },
+            {
+              "id": "lifeskills_u1_l1_c2",
+              "text": "Rub for at least 20 seconds, then rinse with clean water. Keep safe drinking water in a clean covered container.",
+              "image": "ic_lifeskills",
+              "audio": "audio/en/lifeskills_u1_l1_c2.ogg"
+            }
+          ],
+          "activities": [
+            {
+              "id": "lifeskills_u1_l1_a1",
+              "type": "MCQ",
+              "prompt": "What should we use to wash hands?",
+              "promptAudio": "audio/en/lifeskills_u1_l1_a1.ogg",
+              "explanation": "Soap and clean water help remove germs.",
+              "options": [
+                {
+                  "text": "Only dust",
+                  "image": null
+                },
+                {
+                  "text": "Soap and clean water",
+                  "image": null
+                },
+                {
+                  "text": "Oil",
+                  "image": null
+                }
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "lifeskills_u1_l1_a2",
+              "type": "LISTEN_PICK",
+              "prompt": "Listen: wash hands before eating. When should you wash?",
+              "promptAudio": "audio/en/lifeskills_u1_l1_a2.ogg",
+              "explanation": "Wash before eating and after using the toilet.",
+              "options": [
+                {
+                  "text": "Before eating",
+                  "image": null
+                },
+                {
+                  "text": "Only on holidays",
+                  "image": null
+                },
+                {
+                  "text": "Never",
+                  "image": null
+                }
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "lifeskills_u1_l1_a3",
+              "type": "MATCH_PAIRS",
+              "prompt": "Match the habit with the item.",
+              "promptAudio": "audio/en/lifeskills_u1_l1_a3.ogg",
+              "explanation": "Use soap for hands and a toothbrush for teeth.",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "Wash hands",
+                  "right": "Soap"
+                },
+                {
+                  "id": "p2",
+                  "left": "Brush teeth",
+                  "right": "Toothbrush"
+                }
+              ]
+            },
+            {
+              "id": "lifeskills_u1_l1_a4",
+              "type": "NUMBER_ENTRY",
+              "prompt": "Rub soapy hands for at least how many seconds? Enter twenty.",
+              "promptAudio": "audio/en/lifeskills_u1_l1_a4.ogg",
+              "explanation": "Rub for at least 20 seconds, then rinse with clean water.",
+              "answer": 20
+            },
+            {
+              "id": "lifeskills_u1_l1_a5",
+              "type": "MCQ",
+              "prompt": "Which water is safest to drink?",
+              "promptAudio": "audio/en/lifeskills_u1_l1_a5.ogg",
+              "explanation": "Keep safe drinking water in a clean covered container.",
+              "options": [
+                {
+                  "text": "Puddle water",
+                  "image": null
+                },
+                {
+                  "text": "Water from a dirty bucket",
+                  "image": null
+                },
+                {
+                  "text": "Safe drinking water in a clean covered pot",
+                  "image": null
+                }
+              ],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "id": "lifeskills_u1_l2",
+          "objective": "Keep OTPs and personal information private.",
+          "reviewed": false,
+          "cards": [
+            {
+              "id": "lifeskills_u1_l2_c1",
+              "text": "Phone safety. Keep OTPs and personal information private. Never share an OTP with anyone. Ask a trusted adult for help.",
+              "image": "ic_lifeskills",
+              "audio": "audio/en/lifeskills_u1_l2_c1.ogg"
+            },
+            {
+              "id": "lifeskills_u1_l2_c2",
+              "text": "Zero. Never share an OTP, even with someone claiming to be from a bank. Do not send money or personal details for unknown prizes.",
+              "image": "ic_lifeskills",
+              "audio": "audio/en/lifeskills_u1_l2_c2.ogg"
+            }
+          ],
+          "activities": [
+            {
+              "id": "lifeskills_u1_l2_a1",
+              "type": "MCQ",
+              "prompt": "A stranger asks for an OTP. What should you do?",
+              "promptAudio": "audio/en/lifeskills_u1_l2_a1.ogg",
+              "explanation": "Never share an OTP with anyone. Ask a trusted adult for help.",
+              "options": [
+                {
+                  "text": "Tell the OTP",
+                  "image": null
+                },
+                {
+                  "text": "Do not share; tell a trusted adult",
+                  "image": null
+                },
+                {
+                  "text": "Post it online",
+                  "image": null
+                }
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "lifeskills_u1_l2_a2",
+              "type": "LISTEN_PICK",
+              "prompt": "Listen: keep your address private. What is private?",
+              "promptAudio": "audio/en/lifeskills_u1_l2_a2.ogg",
+              "explanation": "Do not send your address to strangers.",
+              "options": [
+                {
+                  "text": "A crop name",
+                  "image": null
+                },
+                {
+                  "text": "The weather",
+                  "image": null
+                },
+                {
+                  "text": "Your home address",
+                  "image": null
+                }
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "lifeskills_u1_l2_a3",
+              "type": "MATCH_PAIRS",
+              "prompt": "Match each situation to a safe action.",
+              "promptAudio": "audio/en/lifeskills_u1_l2_a3.ogg",
+              "explanation": "Avoid unknown links and seek help for worrying messages.",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "Unknown link",
+                  "right": "Do not tap"
+                },
+                {
+                  "id": "p2",
+                  "left": "Worrying message",
+                  "right": "Tell a trusted adult"
+                }
+              ]
+            },
+            {
+              "id": "lifeskills_u1_l2_a4",
+              "type": "NUMBER_ENTRY",
+              "prompt": "How many people should you share an OTP with?",
+              "promptAudio": "audio/en/lifeskills_u1_l2_a4.ogg",
+              "explanation": "Zero. Never share an OTP, even with someone claiming to be from a bank.",
+              "answer": 0
+            },
+            {
+              "id": "lifeskills_u1_l2_a5",
+              "type": "MCQ",
+              "prompt": "A message says you won a prize and asks for money. What is safest?",
+              "promptAudio": "audio/en/lifeskills_u1_l2_a5.ogg",
+              "explanation": "Do not send money or personal details for unknown prizes.",
+              "options": [
+                {
+                  "text": "Stop and tell a trusted adult",
+                  "image": null
+                },
+                {
+                  "text": "Pay quickly",
+                  "image": null
+                },
+                {
+                  "text": "Share the OTP",
+                  "image": null
+                }
+              ],
+              "correctIndex": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

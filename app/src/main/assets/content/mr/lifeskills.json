@@ -1,0 +1,243 @@
+{
+  "subjectId": "lifeskills",
+  "version": 1,
+  "lang": "mr",
+  "title": "रोजची सुरक्षितता",
+  "icon": "ic_lifeskills",
+  "units": [
+    {
+      "id": "lifeskills_u1",
+      "title": "रोजची सुरक्षितता",
+      "lessons": [
+        {
+          "id": "lifeskills_u1_l1",
+          "objective": "रोजच्या स्वच्छतेच्या सवयी शिका.",
+          "reviewed": false,
+          "cards": [
+            {
+              "id": "lifeskills_u1_l1_c1",
+              "text": "स्वच्छ हात. रोजच्या स्वच्छतेच्या सवयी शिका. साबण आणि स्वच्छ पाणी जंतू काढण्यास मदत करतात.",
+              "image": "ic_lifeskills",
+              "audio": "audio/mr/lifeskills_u1_l1_c1.ogg"
+            },
+            {
+              "id": "lifeskills_u1_l1_c2",
+              "text": "किमान 20 सेकंद चोळा, मग स्वच्छ पाण्याने धुवा. सुरक्षित पिण्याचे पाणी स्वच्छ झाकलेल्या भांड्यात ठेवा.",
+              "image": "ic_lifeskills",
+              "audio": "audio/mr/lifeskills_u1_l1_c2.ogg"
+            }
+          ],
+          "activities": [
+            {
+              "id": "lifeskills_u1_l1_a1",
+              "type": "MCQ",
+              "prompt": "हात धुण्यासाठी काय वापरावे?",
+              "promptAudio": "audio/mr/lifeskills_u1_l1_a1.ogg",
+              "explanation": "साबण आणि स्वच्छ पाणी जंतू काढण्यास मदत करतात.",
+              "options": [
+                {
+                  "text": "फक्त धूळ",
+                  "image": null
+                },
+                {
+                  "text": "साबण आणि स्वच्छ पाणी",
+                  "image": null
+                },
+                {
+                  "text": "तेल",
+                  "image": null
+                }
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "lifeskills_u1_l1_a2",
+              "type": "LISTEN_PICK",
+              "prompt": "ऐका: जेवणापूर्वी हात धुवा. केव्हा धुवावे?",
+              "promptAudio": "audio/mr/lifeskills_u1_l1_a2.ogg",
+              "explanation": "जेवणापूर्वी आणि शौचानंतर हात धुवा.",
+              "options": [
+                {
+                  "text": "जेवणापूर्वी",
+                  "image": null
+                },
+                {
+                  "text": "फक्त सुट्टीला",
+                  "image": null
+                },
+                {
+                  "text": "कधीच नाही",
+                  "image": null
+                }
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "lifeskills_u1_l1_a3",
+              "type": "MATCH_PAIRS",
+              "prompt": "सवय आणि वस्तू यांच्या जोड्या जुळवा.",
+              "promptAudio": "audio/mr/lifeskills_u1_l1_a3.ogg",
+              "explanation": "हातांसाठी साबण, दातांसाठी ब्रश.",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "हात धुणे",
+                  "right": "साबण"
+                },
+                {
+                  "id": "p2",
+                  "left": "दात घासणे",
+                  "right": "दातांचा ब्रश"
+                }
+              ]
+            },
+            {
+              "id": "lifeskills_u1_l1_a4",
+              "type": "NUMBER_ENTRY",
+              "prompt": "साबण लावलेले हात किमान किती सेकंद चोळावेत? वीस लिहा.",
+              "promptAudio": "audio/mr/lifeskills_u1_l1_a4.ogg",
+              "explanation": "किमान 20 सेकंद चोळा, मग स्वच्छ पाण्याने धुवा.",
+              "answer": 20
+            },
+            {
+              "id": "lifeskills_u1_l1_a5",
+              "type": "MCQ",
+              "prompt": "कोणते पाणी पिणे सर्वात सुरक्षित आहे?",
+              "promptAudio": "audio/mr/lifeskills_u1_l1_a5.ogg",
+              "explanation": "सुरक्षित पिण्याचे पाणी स्वच्छ झाकलेल्या भांड्यात ठेवा.",
+              "options": [
+                {
+                  "text": "डबक्यातील पाणी",
+                  "image": null
+                },
+                {
+                  "text": "घाण बादलीतील पाणी",
+                  "image": null
+                },
+                {
+                  "text": "स्वच्छ झाकलेल्या भांड्यातील सुरक्षित पिण्याचे पाणी",
+                  "image": null
+                }
+              ],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "id": "lifeskills_u1_l2",
+          "objective": "ओटीपी आणि वैयक्तिक माहिती सुरक्षित ठेवा.",
+          "reviewed": false,
+          "cards": [
+            {
+              "id": "lifeskills_u1_l2_c1",
+              "text": "फोनची सुरक्षितता. ओटीपी आणि वैयक्तिक माहिती सुरक्षित ठेवा. ओटीपी कोणालाही सांगू नका. विश्वासू मोठ्यांची मदत घ्या.",
+              "image": "ic_lifeskills",
+              "audio": "audio/mr/lifeskills_u1_l2_c1.ogg"
+            },
+            {
+              "id": "lifeskills_u1_l2_c2",
+              "text": "शून्य. बँकेतून बोलत असल्याचे सांगणाऱ्यालाही ओटीपी सांगू नका. अनोळखी बक्षिसांसाठी पैसे किंवा वैयक्तिक माहिती पाठवू नका.",
+              "image": "ic_lifeskills",
+              "audio": "audio/mr/lifeskills_u1_l2_c2.ogg"
+            }
+          ],
+          "activities": [
+            {
+              "id": "lifeskills_u1_l2_a1",
+              "type": "MCQ",
+              "prompt": "अनोळखी व्यक्तीने ओटीपी मागितला तर काय करावे?",
+              "promptAudio": "audio/mr/lifeskills_u1_l2_a1.ogg",
+              "explanation": "ओटीपी कोणालाही सांगू नका. विश्वासू मोठ्यांची मदत घ्या.",
+              "options": [
+                {
+                  "text": "ओटीपी सांगा",
+                  "image": null
+                },
+                {
+                  "text": "सांगू नका; विश्वासू मोठ्यांना सांगा",
+                  "image": null
+                },
+                {
+                  "text": "ऑनलाइन टाका",
+                  "image": null
+                }
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "lifeskills_u1_l2_a2",
+              "type": "LISTEN_PICK",
+              "prompt": "ऐका: तुमचा पत्ता खाजगी ठेवा. खाजगी माहिती कोणती?",
+              "promptAudio": "audio/mr/lifeskills_u1_l2_a2.ogg",
+              "explanation": "अनोळखी लोकांना तुमचा पत्ता पाठवू नका.",
+              "options": [
+                {
+                  "text": "पिकाचे नाव",
+                  "image": null
+                },
+                {
+                  "text": "हवामान",
+                  "image": null
+                },
+                {
+                  "text": "तुमच्या घराचा पत्ता",
+                  "image": null
+                }
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "lifeskills_u1_l2_a3",
+              "type": "MATCH_PAIRS",
+              "prompt": "परिस्थिती आणि सुरक्षित कृती यांच्या जोड्या जुळवा.",
+              "promptAudio": "audio/mr/lifeskills_u1_l2_a3.ogg",
+              "explanation": "अनोळखी लिंक उघडू नका आणि भीतीदायक संदेशासाठी मदत घ्या.",
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "अनोळखी लिंक",
+                  "right": "स्पर्श करू नका"
+                },
+                {
+                  "id": "p2",
+                  "left": "भीतीदायक संदेश",
+                  "right": "विश्वासू मोठ्यांना सांगा"
+                }
+              ]
+            },
+            {
+              "id": "lifeskills_u1_l2_a4",
+              "type": "NUMBER_ENTRY",
+              "prompt": "ओटीपी किती लोकांना सांगावा?",
+              "promptAudio": "audio/mr/lifeskills_u1_l2_a4.ogg",
+              "explanation": "शून्य. बँकेतून बोलत असल्याचे सांगणाऱ्यालाही ओटीपी सांगू नका.",
+              "answer": 0
+            },
+            {
+              "id": "lifeskills_u1_l2_a5",
+              "type": "MCQ",
+              "prompt": "बक्षिसाचा संदेश पैसे मागतो. सुरक्षित कृती कोणती?",
+              "promptAudio": "audio/mr/lifeskills_u1_l2_a5.ogg",
+              "explanation": "अनोळखी बक्षिसांसाठी पैसे किंवा वैयक्तिक माहिती पाठवू नका.",
+              "options": [
+                {
+                  "text": "थांबा आणि विश्वासू मोठ्यांना सांगा",
+                  "image": null
+                },
+                {
+                  "text": "लगेच पैसे द्या",
+                  "image": null
+                },
+                {
+                  "text": "ओटीपी सांगा",
+                  "image": null
+                }
+              ],
+              "correctIndex": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
